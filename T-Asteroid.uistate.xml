@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <event-sheet active="1" order="0">Menus Events</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="0">
+        <family expanded="1" name="metroFamily" />
+        <family expanded="0" name="partsfamily" />
+        <family expanded="0" name="enemyfamily" />
+    </families-expanded>
+    <folders-expanded>
+        <folder expanded="1" path="object-folder/" />
+        <folder expanded="0" path="object-folder/menu/" />
+        <folder expanded="0" path="object-folder/level window/" />
+        <folder expanded="0" path="object-folder/Bonus/" />
+        <folder expanded="1" path="object-folder/Level1/" />
+        <folder expanded="1" path="object-folder/Level 2/" />
+        <folder expanded="1" path="object-folder/Level3/" />
+        <folder expanded="1" path="object-folder/Level 4/" />
+        <folder expanded="1" path="object-folder/Level 5/" />
+        <folder expanded="1" path="object-folder/Level 6/" />
+        <folder expanded="1" path="object-folder/Level 7/" />
+        <folder expanded="0" path="object-folder/shop/" />
+        <folder expanded="0" path="object-folder/Earn/" />
+        <folder expanded="0" path="object-folder/Achievements/" />
+        <folder expanded="0" path="object-folder/help and about/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="0" path="layout-folder/Main Levels/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="1" path="event-folder/Main Levels Events/" />
+        <folder expanded="0" path="file-folder/" />
+        <folder expanded="0" path="sound-folder/" />
+        <folder expanded="0" path="music-folder/" />
+        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="music-folder/l1/" />
+        <folder expanded="1" path="music-folder/l2/" />
+        <folder expanded="1" path="music-folder/l3/" />
+        <folder expanded="1" path="music-folder/l4/" />
+        <folder expanded="1" path="music-folder/l5/" />
+        <folder expanded="1" path="music-folder/l6/" />
+        <folder expanded="1" path="music-folder/l7/" />
+        <folder expanded="1" path="music-folder/Menus Music/" />
+        <folder expanded="1" path="animation-folder/play/" />
+        <folder expanded="1" path="animation-folder/menuBackground/" />
+        <folder expanded="1" path="animation-folder/achievements/" />
+        <folder expanded="1" path="animation-folder/helpnor/" />
+        <folder expanded="1" path="animation-folder/Exit/" />
+        <folder expanded="1" path="animation-folder/setting/" />
+        <folder expanded="1" path="animation-folder/comnor/" />
+        <folder expanded="1" path="animation-folder/gameinsidelayer/" />
+        <folder expanded="1" path="animation-folder/fbnor/" />
+        <folder expanded="1" path="animation-folder/options/" />
+        <folder expanded="1" path="animation-folder/audioon/" />
+        <folder expanded="1" path="animation-folder/musicon/" />
+        <folder expanded="1" path="animation-folder/resnor/" />
+        <folder expanded="1" path="animation-folder/optiojnsCancel/" />
+        <folder expanded="1" path="animation-folder/exitCancel/" />
+        <folder expanded="1" path="animation-folder/exitYes/" />
+        <folder expanded="1" path="animation-folder/levelselectionwindowlecomp/" />
+        <folder expanded="1" path="animation-folder/levelBack/" />
+        <folder expanded="1" path="animation-folder/l1nor/" />
+        <folder expanded="1" path="animation-folder/l2nor/" />
+        <folder expanded="1" path="animation-folder/l3nor/" />
+        <folder expanded="1" path="animation-folder/l4nor/" />
+        <folder expanded="1" path="animation-folder/l5nor/" />
+        <folder expanded="1" path="animation-folder/l6nor/" />
+        <folder expanded="1" path="animation-folder/l7nor/" />
+        <folder expanded="1" path="animation-folder/bonus/" />
+        <folder expanded="1" path="animation-folder/homenor/" />
+        <folder expanded="1" path="animation-folder/shopcli/" />
+        <folder expanded="1" path="animation-folder/BonusLevelWindow/" />
+        <folder expanded="1" path="animation-folder/levelsnor/" />
+        <folder expanded="1" path="animation-folder/l1back/" />
+        <folder expanded="1" path="animation-folder/aestroid_brown/" />
+        <folder expanded="1" path="animation-folder/aestroid_dark/" />
+        <folder expanded="1" path="animation-folder/aestroid_gay_/" />
+        <folder expanded="1" path="animation-folder/aestroid_gray/" />
+        <folder expanded="1" path="animation-folder/first/" />
+        <folder expanded="1" path="animation-folder/spaceShips_/" />
+        <folder expanded="1" path="animation-folder/Chest1Image1x/" />
+        <folder expanded="1" path="animation-folder/spaceParts_/" />
+        <folder expanded="1" path="animation-folder/spaceParts_2/" />
+        <folder expanded="1" path="animation-folder/spaceParts_3/" />
+        <folder expanded="1" path="animation-folder/spaceParts_5/" />
+        <folder expanded="1" path="animation-folder/spaceParts_4/" />
+        <folder expanded="1" path="animation-folder/spaceParts_6/" />
+        <folder expanded="1" path="animation-folder/l2back/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/Background/" />
+        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/Background2/" />
+        <folder expanded="1" path="animation-folder/Sprite3/" />
+        <folder expanded="1" path="animation-folder/Sprite4/" />
+        <folder expanded="1" path="animation-folder/Background3/" />
+        <folder expanded="1" path="animation-folder/Background4/" />
+        <folder expanded="1" path="animation-folder/Sprite5/" />
+        <folder expanded="1" path="animation-folder/Background5/" />
+        <folder expanded="1" path="animation-folder/Sprite6/" />
+        <folder expanded="1" path="animation-folder/Sprite7/" />
+        <folder expanded="1" path="animation-folder/Shop/" />
+        <folder expanded="1" path="animation-folder/phaserbar/" />
+        <folder expanded="1" path="animation-folder/buyPhazer/" />
+        <folder expanded="1" path="animation-folder/MetroSpeedBuy/" />
+        <folder expanded="1" path="animation-folder/GoldChestBuy/" />
+        <folder expanded="1" path="animation-folder/DiamondChestBuy/" />
+        <folder expanded="1" path="animation-folder/GOpenChestIcon/" />
+        <folder expanded="1" path="animation-folder/DOpenChestIcon/" />
+        <folder expanded="1" path="animation-folder/1Gbox/" />
+        <folder expanded="1" path="animation-folder/1Dbox/" />
+        <folder expanded="1" path="animation-folder/100coins/" />
+        <folder expanded="1" path="animation-folder/10coins/" />
+        <folder expanded="1" path="animation-folder/150coins/" />
+        <folder expanded="1" path="animation-folder/1phazer/" />
+        <folder expanded="1" path="animation-folder/15coins/" />
+        <folder expanded="1" path="animation-folder/20coins/" />
+        <folder expanded="1" path="animation-folder/300coins/" />
+        <folder expanded="1" path="animation-folder/500coins/" />
+        <folder expanded="1" path="animation-folder/50coins/" />
+        <folder expanded="1" path="animation-folder/70coins/" />
+        <folder expanded="1" path="animation-folder/earnnor/" />
+        <folder expanded="1" path="animation-folder/Sprite8/" />
+        <folder expanded="1" path="animation-folder/Showandearn20coins/" />
+        <folder expanded="1" path="animation-folder/clickandearn10coinsnor/" />
+        <folder expanded="1" path="animation-folder/achievementswin/" />
+        <folder expanded="1" path="animation-folder/storycomp/" />
+        <folder expanded="1" path="animation-folder/prenor/" />
+        <folder expanded="1" path="animation-folder/Sprite10/" />
+        <folder expanded="1" path="animation-folder/nextnor/" />
+        <folder expanded="1" path="animation-folder/prenor2/" />
+        <folder expanded="1" path="animation-folder/prenor3/" />
+        <folder expanded="1" path="animation-folder/prenor4/" />
+        <folder expanded="1" path="animation-folder/nextnor2/" />
+        <folder expanded="1" path="animation-folder/nextnor3/" />
+        <folder expanded="1" path="animation-folder/nextnor4/" />
+        <folder expanded="1" path="animation-folder/homenor2/" />
+        <folder expanded="1" path="animation-folder/homenor3/" />
+        <folder expanded="1" path="animation-folder/homenor4/" />
+        <folder expanded="1" path="animation-folder/homenor5/" />
+        <folder expanded="1" path="animation-folder/spaceAstronauts_/" />
+        <folder expanded="1" path="animation-folder/coinbar/" />
+        <folder expanded="1" path="animation-folder/diamondchestbar/" />
+        <folder expanded="1" path="animation-folder/goldchestbar/" />
+        <folder expanded="1" path="animation-folder/lifebar/" />
+        <folder expanded="1" path="animation-folder/coin/" />
+        <folder expanded="1" path="animation-folder/partsbar/" />
+        <folder expanded="1" path="animation-folder/paunor/" />
+        <folder expanded="1" path="animation-folder/pausedmenu/" />
+        <folder expanded="1" path="animation-folder/savenor/" />
+        <folder expanded="1" path="animation-folder/resnor2/" />
+        <folder expanded="1" path="animation-folder/lcomp1star/" />
+        <folder expanded="1" path="animation-folder/levelfailed/" />
+        <folder expanded="1" path="animation-folder/winchest/" />
+        <folder expanded="1" path="animation-folder/wincoin/" />
+        <folder expanded="1" path="animation-folder/bug_eye/" />
+        <folder expanded="1" path="animation-folder/crescent/" />
+        <folder expanded="1" path="animation-folder/fighter/" />
+        <folder expanded="1" path="animation-folder/saucer_blades/" />
+        <folder expanded="1" path="animation-folder/saucer/" />
+        <folder expanded="1" path="animation-folder/scythe/" />
+        <folder expanded="1" path="animation-folder/slicer/" />
+        <folder expanded="1" path="animation-folder/spikey/" />
+        <folder expanded="1" path="animation-folder/phazer/" />
+        <folder expanded="1" path="animation-folder/Earinwin/" />
+        <folder expanded="1" path="animation-folder/Sprite9/" />
+        <folder expanded="1" path="animation-folder/1Ac/" />
+        <folder expanded="1" path="animation-folder/1Coin/" />
+        <folder expanded="1" path="animation-folder/1STBANNERCLICK/" />
+        <folder expanded="1" path="animation-folder/1STFAILED/" />
+        <folder expanded="1" path="animation-folder/1STINERTIALSHOW/" />
+        <folder expanded="1" path="animation-folder/1stPHAZERBUY/" />
+        <folder expanded="1" path="animation-folder/1stPHAZERUSE/" />
+        <folder expanded="1" path="animation-folder/1STVIDEOSHOW/" />
+        <folder expanded="1" path="animation-folder/2SPEED/" />
+        <folder expanded="1" path="animation-folder/3AC/" />
+        <folder expanded="1" path="animation-folder/5SPEED/" />
+        <folder expanded="1" path="animation-folder/19AC/" />
+        <folder expanded="1" path="animation-folder/30Coin/" />
+        <folder expanded="1" path="animation-folder/100COIN/" />
+        <folder expanded="1" path="animation-folder/300COIN/" />
+        <folder expanded="1" path="animation-folder/FACEBOOKSIGNIN/" />
+        <folder expanded="1" path="animation-folder/L/" />
+        <folder expanded="1" path="animation-folder/L2/" />
+        <folder expanded="1" path="animation-folder/L3/" />
+        <folder expanded="1" path="animation-folder/L4/" />
+        <folder expanded="1" path="animation-folder/help/" />
+        <folder expanded="1" path="animation-folder/help2/" />
+        <folder expanded="1" path="animation-folder/help3/" />
+        <folder expanded="1" path="animation-folder/credits/" />
+        <folder expanded="1" path="animation-folder/menusplash/" />
+        <folder expanded="1" path="animation-folder/Sprite11/" />
+        <folder expanded="1" path="animation-folder/j/" />
+    </folders-expanded>
+</c2uistate>
