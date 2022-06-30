@@ -1,0 +1,904 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>achievements event</name>
+    <events>
+        <include>Global</include>
+        <variable constant="0" name="ac1" sid="624185568243505" static="0" type="number">0</variable>
+        <variable constant="0" name="ac2" sid="240532637906134" static="0" type="number">0</variable>
+        <variable constant="0" name="ac3" sid="535325964128063" static="0" type="number">0</variable>
+        <variable constant="0" name="ac4" sid="581142926137780" static="0" type="number">0</variable>
+        <variable constant="0" name="ac5" sid="572009806639041" static="0" type="number">0</variable>
+        <variable constant="0" name="ac6" sid="110993311805457" static="0" type="number">0</variable>
+        <variable constant="0" name="ac7" sid="832432804697433" static="0" type="number">0</variable>
+        <variable constant="0" name="ac8" sid="925544342468922" static="0" type="number">0</variable>
+        <variable constant="0" name="ac9" sid="991459715587697" static="0" type="number">0</variable>
+        <variable constant="0" name="ac10" sid="617282802485106" static="0" type="number">0</variable>
+        <variable constant="0" name="ac11" sid="739155960186436" static="0" type="number">0</variable>
+        <variable constant="0" name="ac12" sid="268998546225414" static="0" type="number">0</variable>
+        <variable constant="0" name="ac13" sid="615511061379241" static="0" type="number">0</variable>
+        <variable constant="0" name="ac14" sid="314853157209763" static="0" type="number">0</variable>
+        <variable constant="0" name="ac15" sid="473797002567251" static="0" type="number">0</variable>
+        <variable constant="0" name="ac16" sid="776329735093495" static="0" type="number">0</variable>
+        <variable constant="0" name="ac17" sid="503062348622782" static="0" type="number">0</variable>
+        <variable constant="0" name="ac18" sid="363935394288203" static="0" type="number">0</variable>
+        <variable constant="0" name="ac19" sid="107388561970508" static="0" type="number">0</variable>
+        <variable constant="0" name="ac20" sid="323222947928208" static="0" type="number">0</variable>
+        <event-group description="" sid="359315284015393" title="Achievements">
+            <sub-events>
+                <event-block sid="649320715449032">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="241774670189178" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="118566643830578" type="100COIN">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="409391508928535" type="19AC">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="628866593882020" type="1Ac">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="695443254881631" type="1Coin">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="361327846321528" type="1STBANNERCLICK">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="589551053602220" type="1STFAILED">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="353008189912874" type="1STINERTIALSHOW">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="596953033407113" type="1stPHAZERBUY">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="897510051740488" type="1stPHAZERUSE">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="236419624650574" type="1STVIDEOSHOW">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="676228532215473" type="2SPEED">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="450449597764146" type="300COIN">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="178348788338425" type="30Coin">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="171770400470936" type="3AC">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="922449107923742" type="5SPEED">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="592911937935705" type="FACEBOOKSIGNIN">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="728488392921173" type="L">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="817949695393796" type="L2">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="414636292552361" type="L3">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="262502171880798" type="L4">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="130660840185730">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="779918981601803" type="System">
+                            <param id="0" name="Variable">ac1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="970294688350426" type="100COIN">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="187767564409922">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="718023856857722" type="System">
+                            <param id="0" name="Variable">ac2</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="193175324556603" type="19AC">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="284529608815180">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="290933515363709" type="System">
+                            <param id="0" name="Variable">ac3</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="257461579467090" type="1Ac">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="172706250285140">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="645427374997392" type="System">
+                            <param id="0" name="Variable">ac4</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="552002313570383" type="1Coin">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="995678621388723">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="306410504764554" type="System">
+                            <param id="0" name="Variable">ac5</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="572146430473717" type="1STBANNERCLICK">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="629590604577505">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="999120463040094" type="System">
+                            <param id="0" name="Variable">ac6</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="476561595155244" type="1STFAILED">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="135069339612794">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="159622706778444" type="System">
+                            <param id="0" name="Variable">ac7</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="834313293620219" type="1STINERTIALSHOW">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="876349854952999">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="245161586487388" type="System">
+                            <param id="0" name="Variable">ac8</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="480222523413397" type="1stPHAZERBUY">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="946300038004420">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="814837917940597" type="System">
+                            <param id="0" name="Variable">ac9</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="399475396261921" type="1stPHAZERUSE">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="648072133022563">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="500500346650268" type="System">
+                            <param id="0" name="Variable">ac10</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="689154557157152" type="1STVIDEOSHOW">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="996131378526494">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="650601477969492" type="System">
+                            <param id="0" name="Variable">ac11</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="616198873804360" type="2SPEED">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="880223244379068">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="437279265111133" type="System">
+                            <param id="0" name="Variable">ac12</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="457673647422049" type="300COIN">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="347961598510448">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="111049926637302" type="System">
+                            <param id="0" name="Variable">ac13</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="964265211150169" type="30Coin">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="246116334809950">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="566689374558125" type="System">
+                            <param id="0" name="Variable">ac14</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="154258578833067" type="3AC">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="750571410861376">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="374031626973508" type="System">
+                            <param id="0" name="Variable">ac15</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="469939636204288" type="5SPEED">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="955457930220095">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="738325284426677" type="System">
+                            <param id="0" name="Variable">ac16</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="565715384173644" type="FACEBOOKSIGNIN">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="916685263822864">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="156898996856369" type="System">
+                            <param id="0" name="Variable">ac17</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="395546946947972" type="L">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="484293455301977">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="932158350106683" type="System">
+                            <param id="0" name="Variable">ac18</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="828517355949437" type="L2">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="780684809443404">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="456035282926769" type="System">
+                            <param id="0" name="Variable">ac19</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="161321594601984" type="L3">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="692902828393861">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="517620897273248" type="System">
+                            <param id="0" name="Variable">ac20</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="393473811216669" type="L4">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="221492062703215" title="Events of Achievements">
+            <sub-events>
+                <event-block sid="615185922675115">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="910582421583274" type="Touch">
+                            <param id="0" name="Object">homenor</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="370602903766839" type="homenor">
+                            <param id="0" name="Animation">&quot;Animation2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="218325898526730" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="847355964845499" type="homenor">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="702859993590429" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
+                        <action id="0" name="Set item" sid="689542412497085" type="LocalStorage">
+                            <param id="0" name="Key">&quot;Coins&quot;</param>
+                            <param id="1" name="Value">GlobalCoin</param>
+                        </action>
+                        <action id="0" name="Set item" sid="187181961776463" type="LocalStorage">
+                            <param id="0" name="Key">&quot;phazer&quot;</param>
+                            <param id="1" name="Value">phazer</param>
+                        </action>
+                        <action id="0" name="Set item" sid="918203375942066" type="LocalStorage">
+                            <param id="0" name="Key">&quot;Gbox&quot;</param>
+                            <param id="1" name="Value">GlobalBox</param>
+                        </action>
+                        <action id="0" name="Set item" sid="565742624773757" type="LocalStorage">
+                            <param id="0" name="Key">&quot;Dbox&quot;</param>
+                            <param id="1" name="Value">DiamondChest</param>
+                        </action>
+                        <action id="0" name="Set item" sid="560784406659709" type="LocalStorage">
+                            <param id="0" name="Key">&quot;speed&quot;</param>
+                            <param id="1" name="Value">MetroSpeed</param>
+                        </action>
+                        <action id="0" name="Set item" sid="205765712288555" type="LocalStorage">
+                            <param id="0" name="Key">&quot;l1&quot;</param>
+                            <param id="1" name="Value">L1</param>
+                        </action>
+                        <action id="0" name="Set item" sid="386036157796350" type="LocalStorage">
+                            <param id="0" name="Key">&quot;l2&quot;</param>
+                            <param id="1" name="Value">L2</param>
+                        </action>
+                        <action id="0" name="Set item" sid="422318812767525" type="LocalStorage">
+                            <param id="0" name="Key">&quot;l3&quot;</param>
+                            <param id="1" name="Value">L3</param>
+                        </action>
+                        <action id="0" name="Set item" sid="642102794307451" type="LocalStorage">
+                            <param id="0" name="Key">&quot;l4&quot;</param>
+                            <param id="1" name="Value">L4</param>
+                        </action>
+                        <action id="0" name="Set item" sid="180391916271317" type="LocalStorage">
+                            <param id="0" name="Key">&quot;l5&quot;</param>
+                            <param id="1" name="Value">L5</param>
+                        </action>
+                        <action id="0" name="Set item" sid="856272425197512" type="LocalStorage">
+                            <param id="0" name="Key">&quot;l6&quot;</param>
+                            <param id="1" name="Value">L6</param>
+                        </action>
+                        <action id="0" name="Set item" sid="517267507645429" type="LocalStorage">
+                            <param id="0" name="Key">&quot;l7&quot;</param>
+                            <param id="1" name="Value">L7</param>
+                        </action>
+                        <action id="0" name="Set item" sid="371759788700284" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac1&quot;</param>
+                            <param id="1" name="Value">ac1</param>
+                        </action>
+                        <action id="0" name="Set item" sid="889029167883852" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac2&quot;</param>
+                            <param id="1" name="Value">ac2</param>
+                        </action>
+                        <action id="0" name="Set item" sid="453237113256214" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac3&quot;</param>
+                            <param id="1" name="Value">ac3</param>
+                        </action>
+                        <action id="0" name="Set item" sid="762259457793498" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac4&quot;</param>
+                            <param id="1" name="Value">ac4</param>
+                        </action>
+                        <action id="0" name="Set item" sid="568602514001703" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac5&quot;</param>
+                            <param id="1" name="Value">ac5</param>
+                        </action>
+                        <action id="0" name="Set item" sid="483195589842672" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac6&quot;</param>
+                            <param id="1" name="Value">ac6</param>
+                        </action>
+                        <action id="0" name="Set item" sid="712345477600447" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac7&quot;</param>
+                            <param id="1" name="Value">ac7</param>
+                        </action>
+                        <action id="0" name="Set item" sid="647388328886117" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac8&quot;</param>
+                            <param id="1" name="Value">ac8</param>
+                        </action>
+                        <action id="0" name="Set item" sid="182576879504202" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac9&quot;</param>
+                            <param id="1" name="Value">ac9</param>
+                        </action>
+                        <action id="0" name="Set item" sid="816466597071850" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac10&quot;</param>
+                            <param id="1" name="Value">ac10</param>
+                        </action>
+                        <action id="0" name="Set item" sid="734474604445961" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac11&quot;</param>
+                            <param id="1" name="Value">ac11</param>
+                        </action>
+                        <action id="0" name="Set item" sid="860525925149323" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac12&quot;</param>
+                            <param id="1" name="Value">ac12</param>
+                        </action>
+                        <action id="0" name="Set item" sid="198504388158116" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac13&quot;</param>
+                            <param id="1" name="Value">ac13</param>
+                        </action>
+                        <action id="0" name="Set item" sid="653194945437505" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac14&quot;</param>
+                            <param id="1" name="Value">ac14</param>
+                        </action>
+                        <action id="0" name="Set item" sid="406992532155655" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac15&quot;</param>
+                            <param id="1" name="Value">ac15</param>
+                        </action>
+                        <action id="0" name="Set item" sid="484650854266320" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac16&quot;</param>
+                            <param id="1" name="Value">ac16</param>
+                        </action>
+                        <action id="0" name="Set item" sid="852061347505536" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac17&quot;</param>
+                            <param id="1" name="Value">ac17</param>
+                        </action>
+                        <action id="0" name="Set item" sid="430122431104886" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac18&quot;</param>
+                            <param id="1" name="Value">ac18</param>
+                        </action>
+                        <action id="0" name="Set item" sid="366609920731269" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac19&quot;</param>
+                            <param id="1" name="Value">ac19</param>
+                        </action>
+                        <action id="0" name="Set item" sid="518451807132737" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac20&quot;</param>
+                            <param id="1" name="Value">ac20</param>
+                        </action>
+                        <action id="0" name="Set item" sid="783433700268290" type="LocalStorage">
+                            <param id="0" name="Key">&quot;save&quot;</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="656613536158440" type="System">
+                            <param id="0" name="Layout">Menus</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="774591666497516">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="972579627366877" type="System">
+                            <param id="0" name="Variable">L1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="828795674865669" type="System">
+                            <param id="0" name="Variable">ac1</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="667586331273515">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="888043174819841" type="System">
+                            <param id="0" name="Variable">L2</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="898173958637528" type="System">
+                            <param id="0" name="Variable">ac2</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="156851574465377">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="491403656022335" type="System">
+                            <param id="0" name="Variable">L3</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="478776494164075" type="System">
+                            <param id="0" name="Variable">ac3</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="552286295183104">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="634537355938475" type="System">
+                            <param id="0" name="Variable">L4</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="134644485817361" type="System">
+                            <param id="0" name="Variable">ac4</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="214137611330380">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="384362318643660" type="System">
+                            <param id="0" name="Variable">L5</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="120648095565561" type="System">
+                            <param id="0" name="Variable">ac5</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="458582300892326">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="670271114063581" type="System">
+                            <param id="0" name="Variable">L6</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="903363354414540" type="System">
+                            <param id="0" name="Variable">ac6</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="827789486064662">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="156230743072827" type="System">
+                            <param id="0" name="Variable">L7</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="352882659884955" type="System">
+                            <param id="0" name="Variable">ac7</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="878397930214780">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="129390587366801" type="System">
+                            <param id="0" name="Variable">GlobalCoin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="628282923185968" type="System">
+                            <param id="0" name="Variable">ac8</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="712278247711868">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="947221656389480" type="System">
+                            <param id="0" name="Variable">GlobalCoin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">10</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="204338456882714" type="System">
+                            <param id="0" name="Variable">ac9</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="464484519343060">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="290373404903995" type="System">
+                            <param id="0" name="Variable">GlobalCoin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">50</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="820064960593206" type="System">
+                            <param id="0" name="Variable">ac10</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="856398047046544">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="391451186926169" type="System">
+                            <param id="0" name="Variable">GlobalCoin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">100</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="403529687824455" type="System">
+                            <param id="0" name="Variable">ac11</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="117245740137945">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="256487168402623" type="System">
+                            <param id="0" name="Variable">GlobalCoin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">500</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="812538039211332" type="System">
+                            <param id="0" name="Variable">ac12</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="780545536009542">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="651891957373257" type="System">
+                            <param id="0" name="Variable">phazer</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="814847036798146" type="System">
+                            <param id="0" name="Variable">ac13</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="189503943161693">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="716663411612926" type="System">
+                            <param id="0" name="Variable">phazer</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="664514705311359" type="System">
+                            <param id="0" name="Variable">ac14</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="863158319119605">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="666024118906111" type="System">
+                            <param id="0" name="Variable">MetroSpeed</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="104282549532858" type="System">
+                            <param id="0" name="Variable">ac15</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="498734130945673">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="989316875776384" type="System">
+                            <param id="0" name="Variable">MetroSpeed</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="567979730542667" type="System">
+                            <param id="0" name="Variable">ac16</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="319394454376424">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="771500538632875" type="System">
+                            <param id="0" name="Variable">MetroSpeed</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="722894176944261" type="System">
+                            <param id="0" name="Variable">ac17</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="498297875926749">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="499819318286903" type="System">
+                            <param id="0" name="Variable">MetroSpeed</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="456558304140513" type="System">
+                            <param id="0" name="Variable">ac18</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="879054625537751">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="596808102064091" type="System">
+                            <param id="0" name="Variable">Levelparts1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="578193914247191" type="System">
+                            <param id="0" name="Variable">ac19</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="839386114247594">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="247398609294415" type="System">
+                            <param id="0" name="Variable">DiamondChest</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="441329963166644" type="System">
+                            <param id="0" name="Variable">ac20</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="242705262312501" title="Music8">
+            <sub-events>
+                <event-block sid="109642126718625">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="766893815689830" type="System" />
+                        <condition id="-14" name="Compare variable" sid="455365370712397" type="System">
+                            <param id="0" name="Variable">Music</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="775156780325471" type="Audio">
+                            <param id="0" name="Audio file">MattOglseby - 1</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">-20</param>
+                            <param id="1" name="Tag (optional)">&quot;ac&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="988412017515356">
+                    <conditions>
+                        <condition id="-3" name="On end of layout" sid="541263751348476" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="6" name="Stop" sid="192042731255977" type="Audio">
+                            <param id="0" name="Tag">&quot;ac&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="686148513240374" title="Banner10">
+            <sub-events>
+                <event-block sid="919481132579954">
+                    <conditions>
+                        <condition id="5" name="On banner ad received" sid="137084824870081" type="AdmobAds" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Show banner ad" sid="749567862345553" type="AdmobAds">
+                            <param id="0" name="Position">1</param>
+                            <param id="1" name="Size">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="640052594167912">
+                    <conditions>
+                        <condition id="0" name="Is showing banner ad" sid="300864033012788" type="AdmobAds" />
+                    </conditions>
+                    <actions>
+                        <action id="7" name="Preload banner ad" sid="392657878399541" type="AdmobAds" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="815840528309928">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="280860457060399" type="System" />
+            </conditions>
+            <actions>
+                <action id="7" name="Preload banner ad" sid="835532895319610" type="AdmobAds" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Company Splash Splash</name>
+    <events>
+        <event-group description="" sid="244096015772965" title="Banner4">
+            <sub-events>
+                <event-block sid="218091292504084">
+                    <conditions>
+                        <condition id="5" name="On banner ad received" sid="949244169910789" type="AdmobAds" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Show banner ad" sid="485868267412795" type="AdmobAds">
+                            <param id="0" name="Position">1</param>
+                            <param id="1" name="Size">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="174442946871761">
+                    <conditions>
+                        <condition id="0" name="Is showing banner ad" sid="858250020129503" type="AdmobAds" />
+                    </conditions>
+                    <actions>
+                        <action id="7" name="Preload banner ad" sid="710949625594251" type="AdmobAds" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="500059565359594">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="765237068331794" type="System" />
+            </conditions>
+            <actions>
+                <action id="7" name="Preload banner ad" sid="971813771180698" type="AdmobAds" />
+            </actions>
+        </event-block>
+        <event-group description="" sid="724275938742327" title="Music10">
+            <sub-events>
+                <event-block sid="892761468843129">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="901226560787882" type="System" />
+                        <condition id="-14" name="Compare variable" sid="479270306294887" type="System">
+                            <param id="0" name="Variable">Music</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="251494738784580" type="Audio">
+                            <param id="0" name="Audio file">MattOglseby - 1</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">-20</param>
+                            <param id="1" name="Tag (optional)">&quot;ac&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="228802847040968">
+                    <conditions>
+                        <condition id="-3" name="On end of layout" sid="625330205012304" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="6" name="Stop" sid="455607239697633" type="Audio">
+                            <param id="0" name="Tag">&quot;ac&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="972462045793849" title="Load2">
+            <sub-events>
+                <event-block sid="500081620700656">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="479262456535182" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="496791724274949" type="System">
+                            <param id="0" name="Seconds">1</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="680781464687957" type="System">
+                            <param id="0" name="Layout">Menus</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

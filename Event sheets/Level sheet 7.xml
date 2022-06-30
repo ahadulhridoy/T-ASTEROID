@@ -1,0 +1,1476 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Level sheet 7</name>
+    <events>
+        <include>Global</include>
+        <event-group description="" sid="743850175060914" title="StartEvent7">
+            <sub-events>
+                <event-block sid="115697926798940">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="544698952341297" type="System" />
+                    </conditions>
+                    <actions>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="431791030999668" type="spaceAstronauts_">
+                            <param id="0" name="Pin to">first</param>
+                            <param id="1" name="Mode">0</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="771074706921821" type="coin">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-18" name="Rotate clockwise" sid="368541922108539" type="spaceAstronauts_">
+                            <param id="0" name="Degrees">180</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="217958298341648" type="System">
+                            <param id="0" name="Layer">3</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="858223830414003" type="System">
+                            <param id="0" name="Layer">4</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="462744271098138" type="System">
+                            <param id="0" name="Layer">5</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="798657908795610" type="System">
+                            <param id="0" name="Variable">Levelbox7</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="280415373413037" type="System">
+                            <param id="0" name="Variable">Levellife7</param>
+                            <param id="1" name="Value">100</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="347964072542841" type="System">
+                            <param id="0" name="Variable">Levelcoin7</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="106805296453198" type="System">
+                            <param id="0" name="Variable">Levelparts7</param>
+                            <param id="1" name="Value">6</param>
+                        </action>
+                        <action id="3" name="Preload interstitial" sid="660392300361521" type="AdmobAds" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <variable constant="0" name="Levelparts7" sid="783240612479843" static="0" type="number">6</variable>
+        <variable constant="0" name="Levelbox7" sid="559907718679877" static="0" type="number">0</variable>
+        <variable constant="0" name="Levelcoin7" sid="365051407016833" static="0" type="number">0</variable>
+        <variable constant="0" name="Levellife7" sid="588357766524176" static="0" type="number">100</variable>
+        <event-group description="" sid="616193216634244" title="L1 pause button actions7">
+            <sub-events>
+                <event-block sid="180605729755548">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="217135659742063" type="Touch">
+                            <param id="0" name="Object">homenor</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="658030229846262" type="homenor">
+                            <param id="0" name="Animation">&quot;Animation2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="977286810749198" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="796861329574201" type="homenor">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="548644990534105" type="System">
+                            <param id="0" name="Layer">3</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="557249679416252" type="System">
+                            <param id="0" name="Variable">Levelbox7</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="723213790816399" type="System">
+                            <param id="0" name="Variable">Levellife7</param>
+                            <param id="1" name="Value">100</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="844370948137148" type="System">
+                            <param id="0" name="Variable">Levelcoin7</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="849686603575995" type="System">
+                            <param id="0" name="Variable">Levelparts7</param>
+                            <param id="1" name="Value">6</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="544500300104564" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="626469125888475" type="System">
+                            <param id="0" name="Layout">Menus</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="965997122977458">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="202120814066227" type="Touch">
+                            <param id="0" name="Object">optiojnsCancel</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="526925572816354" type="optiojnsCancel">
+                            <param id="0" name="Animation">&quot;Animation2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="872051623936529" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="999175124351383" type="optiojnsCancel">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="736025695045154" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="254206624425436" type="System">
+                            <param id="0" name="Layer">3</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="982597754317309">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="221406255952556" type="Touch">
+                            <param id="0" name="Object">savenor</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="211178143784803" type="savenor">
+                            <param id="0" name="Animation">&quot;Animation2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="355581660092344" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="455417916278323" type="savenor">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="0" name="Set item" sid="360479416786736" type="LocalStorage">
+                            <param id="0" name="Key">&quot;Coins&quot;</param>
+                            <param id="1" name="Value">GlobalCoin</param>
+                        </action>
+                        <action id="0" name="Set item" sid="356200806443057" type="LocalStorage">
+                            <param id="0" name="Key">&quot;phazer&quot;</param>
+                            <param id="1" name="Value">phazer</param>
+                        </action>
+                        <action id="0" name="Set item" sid="782215913612849" type="LocalStorage">
+                            <param id="0" name="Key">&quot;Gbox&quot;</param>
+                            <param id="1" name="Value">GlobalBox</param>
+                        </action>
+                        <action id="0" name="Set item" sid="735843265050388" type="LocalStorage">
+                            <param id="0" name="Key">&quot;Dbox&quot;</param>
+                            <param id="1" name="Value">DiamondChest</param>
+                        </action>
+                        <action id="0" name="Set item" sid="723318058512296" type="LocalStorage">
+                            <param id="0" name="Key">&quot;speed&quot;</param>
+                            <param id="1" name="Value">MetroSpeed</param>
+                        </action>
+                        <action id="0" name="Set item" sid="824673350254587" type="LocalStorage">
+                            <param id="0" name="Key">&quot;l1&quot;</param>
+                            <param id="1" name="Value">L1</param>
+                        </action>
+                        <action id="0" name="Set item" sid="160886586210747" type="LocalStorage">
+                            <param id="0" name="Key">&quot;l2&quot;</param>
+                            <param id="1" name="Value">L2</param>
+                        </action>
+                        <action id="0" name="Set item" sid="646558955208660" type="LocalStorage">
+                            <param id="0" name="Key">&quot;l3&quot;</param>
+                            <param id="1" name="Value">L3</param>
+                        </action>
+                        <action id="0" name="Set item" sid="926844618421292" type="LocalStorage">
+                            <param id="0" name="Key">&quot;l4&quot;</param>
+                            <param id="1" name="Value">L4</param>
+                        </action>
+                        <action id="0" name="Set item" sid="724625967512895" type="LocalStorage">
+                            <param id="0" name="Key">&quot;l5&quot;</param>
+                            <param id="1" name="Value">L5</param>
+                        </action>
+                        <action id="0" name="Set item" sid="539223556080992" type="LocalStorage">
+                            <param id="0" name="Key">&quot;l6&quot;</param>
+                            <param id="1" name="Value">L6</param>
+                        </action>
+                        <action id="0" name="Set item" sid="661769134908992" type="LocalStorage">
+                            <param id="0" name="Key">&quot;l7&quot;</param>
+                            <param id="1" name="Value">L7</param>
+                        </action>
+                        <action id="0" name="Set item" sid="340038680340651" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac1&quot;</param>
+                            <param id="1" name="Value">ac1</param>
+                        </action>
+                        <action id="0" name="Set item" sid="937017429966117" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac2&quot;</param>
+                            <param id="1" name="Value">ac2</param>
+                        </action>
+                        <action id="0" name="Set item" sid="835090534569333" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac3&quot;</param>
+                            <param id="1" name="Value">ac3</param>
+                        </action>
+                        <action id="0" name="Set item" sid="414029409282564" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac4&quot;</param>
+                            <param id="1" name="Value">ac4</param>
+                        </action>
+                        <action id="0" name="Set item" sid="766225673203581" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac5&quot;</param>
+                            <param id="1" name="Value">ac5</param>
+                        </action>
+                        <action id="0" name="Set item" sid="899443280168136" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac6&quot;</param>
+                            <param id="1" name="Value">ac6</param>
+                        </action>
+                        <action id="0" name="Set item" sid="381105808543499" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac7&quot;</param>
+                            <param id="1" name="Value">ac7</param>
+                        </action>
+                        <action id="0" name="Set item" sid="362790937948263" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac8&quot;</param>
+                            <param id="1" name="Value">ac8</param>
+                        </action>
+                        <action id="0" name="Set item" sid="831164241620182" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac9&quot;</param>
+                            <param id="1" name="Value">ac9</param>
+                        </action>
+                        <action id="0" name="Set item" sid="140052708518766" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac10&quot;</param>
+                            <param id="1" name="Value">ac10</param>
+                        </action>
+                        <action id="0" name="Set item" sid="380949392397016" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac11&quot;</param>
+                            <param id="1" name="Value">ac11</param>
+                        </action>
+                        <action id="0" name="Set item" sid="277455085113318" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac12&quot;</param>
+                            <param id="1" name="Value">ac12</param>
+                        </action>
+                        <action id="0" name="Set item" sid="406922194623673" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac13&quot;</param>
+                            <param id="1" name="Value">ac13</param>
+                        </action>
+                        <action id="0" name="Set item" sid="940398005684917" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac14&quot;</param>
+                            <param id="1" name="Value">ac14</param>
+                        </action>
+                        <action id="0" name="Set item" sid="786986447451707" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac15&quot;</param>
+                            <param id="1" name="Value">ac15</param>
+                        </action>
+                        <action id="0" name="Set item" sid="503142265053126" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac16&quot;</param>
+                            <param id="1" name="Value">ac16</param>
+                        </action>
+                        <action id="0" name="Set item" sid="908979987004324" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac17&quot;</param>
+                            <param id="1" name="Value">ac17</param>
+                        </action>
+                        <action id="0" name="Set item" sid="212411946536902" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac18&quot;</param>
+                            <param id="1" name="Value">ac18</param>
+                        </action>
+                        <action id="0" name="Set item" sid="799476751559396" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac19&quot;</param>
+                            <param id="1" name="Value">ac19</param>
+                        </action>
+                        <action id="0" name="Set item" sid="339082304016841" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac20&quot;</param>
+                            <param id="1" name="Value">ac20</param>
+                        </action>
+                        <action id="0" name="Set item" sid="495374821968982" type="LocalStorage">
+                            <param id="0" name="Key">&quot;save&quot;</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="781171404012931" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="821961332146032" type="System">
+                            <param id="0" name="Layer">3</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="277720999898377" title="L1pause7">
+            <sub-events>
+                <event-block sid="928462652909448">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="724558643840392" type="Touch">
+                            <param id="0" name="Object">paunor</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="992773917464058" type="paunor">
+                            <param id="0" name="Animation">&quot;Animation2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="710799041338592" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="835900030294845" type="paunor">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="530598194881297" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="699639774882012" type="System">
+                            <param id="0" name="Layer">3</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="358941020424345" title="CoinLevel7">
+            <sub-events>
+                <event-block sid="725005953687270">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="637803126154026" type="spaceAstronauts_">
+                            <param id="0" name="Object">Chest1Image1x</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="585656336505157" type="Chest1Image1x" />
+                        <action id="-10" name="Add to" sid="646961007489461" type="System">
+                            <param id="0" name="Variable">Levelbox7</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="533135772349130" type="Audio">
+                            <param id="0" name="Audio file">boxcollect</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-30</param>
+                            <param id="1" name="Tag (optional)">&quot;win&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="572521793960453">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="943529345391208" type="spaceAstronauts_">
+                            <param id="0" name="Object">coin</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="998468106357639" type="coin" />
+                        <action id="-10" name="Add to" sid="908447897246815" type="System">
+                            <param id="0" name="Variable">Levelcoin7</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="886341055390728" type="Audio">
+                            <param id="0" name="Audio file">coin</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-35</param>
+                            <param id="1" name="Tag (optional)">&quot;win&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="815567492231378">
+                    <conditions>
+                        <condition id="4" name="On finished" sid="954616157791235" type="coin">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="810834911467737" type="coin">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="872853258012933" title="System7">
+            <sub-events>
+                <event-block sid="386810375279008">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="848686174288431" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-18" name="Rotate clockwise" sid="757484047559697" type="metroFamily">
+                            <param id="0" name="Degrees">MetroSpeed</param>
+                        </action>
+                        <action id="0" name="Set text" sid="523907435900121" type="coin7">
+                            <param id="0" name="Text">Levelcoin7</param>
+                        </action>
+                        <action id="0" name="Set text" sid="577488736873095" type="parts7">
+                            <param id="0" name="Text">Levelparts7</param>
+                        </action>
+                        <action id="0" name="Set text" sid="603053941912832" type="box7">
+                            <param id="0" name="Text">Levelbox7</param>
+                        </action>
+                        <action id="0" name="Set text" sid="620536185754146" type="life7">
+                            <param id="0" name="Text">Levellife7</param>
+                        </action>
+                        <action id="0" name="Set text" sid="353747231108076" type="phazerLevelCount">
+                            <param id="0" name="Text">phazer</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="152246813047791">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="613999139114222" type="Touch">
+                            <param id="0" name="Object">phazer</param>
+                        </condition>
+                        <condition id="-14" inverted="1" name="Compare variable" sid="250507318932122" type="System">
+                            <param id="0" name="Variable">phazer</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="683299678948954" type="enemyfamily" />
+                        <action id="0" name="Play" sid="582979016522347" type="Audio">
+                            <param id="0" name="Audio file">laser1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-30</param>
+                            <param id="1" name="Tag (optional)">&quot;win&quot;</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="203429182828282" type="System">
+                            <param id="0" name="Variable">phazer</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="213434645203546">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="598378066187293" type="System">
+                            <param id="0" name="Variable">phazer</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="409913308392073" type="phazer">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="215226010927009">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="131713384886331" type="System">
+                            <param id="0" name="Variable">phazer</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="240214544921615" type="phazer">
+                            <param id="0" name="Opacity">40</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="564609302979857" title="MetroEvent7">
+            <sub-events>
+                <event-block sid="610203211027694">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="399139405291669" type="spaceAstronauts_">
+                            <param id="0" name="Object">metroFamily</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Bullet" id="5" name="Set enabled" sid="510252203561998" type="spaceAstronauts_">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="240993568011515" type="spaceAstronauts_">
+                            <param id="0" name="Pin to">metroFamily</param>
+                            <param id="1" name="Mode">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="960401277834864" type="Audio">
+                            <param id="0" name="Audio file">metro collision</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-30</param>
+                            <param id="1" name="Tag (optional)">&quot;win&quot;</param>
+                        </action>
+                        <action id="-18" name="Rotate clockwise" sid="875946097510867" type="spaceAstronauts_">
+                            <param id="0" name="Degrees">180</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="605309625323600">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="646207914900903" type="spaceAstronauts_">
+                            <param id="0" name="Object">Sprite6</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Bullet" id="5" name="Set enabled" sid="790045462923573" type="spaceAstronauts_">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="425549768691221" type="spaceAstronauts_">
+                            <param id="0" name="Pin to">Sprite6</param>
+                            <param id="1" name="Mode">0</param>
+                        </action>
+                        <action id="-18" name="Rotate clockwise" sid="527365901496167" type="spaceAstronauts_">
+                            <param id="0" name="Degrees">180</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="749780425696293">
+                    <conditions>
+                        <condition id="14" name="On tap" sid="784224014570636" type="Touch" />
+                        <condition id="4" inverted="1" name="Is touching object" sid="129571379956407" type="Touch">
+                            <param id="0" name="Object">paunor</param>
+                        </condition>
+                        <condition id="4" inverted="1" name="Is touching object" sid="804461479074397" type="Touch">
+                            <param id="0" name="Object">phazer</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Bullet" id="5" name="Set enabled" sid="460645251541233" type="spaceAstronauts_">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action behavior="Pin" id="1" name="Unpin" sid="987614304237269" type="spaceAstronauts_" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="407277401689289" title="Level  layer visibality7">
+            <sub-events>
+                <event-block any="1" sid="241283728181684">
+                    <conditions>
+                        <condition id="-9" name="Layer is visible" sid="351122245595186" type="System">
+                            <param id="0" name="Layer">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-18" name="Set layer opacity" sid="944464425386905" type="System">
+                            <param id="0" name="Layer">0</param>
+                            <param id="1" name="Opacity">50</param>
+                        </action>
+                        <action id="-18" name="Set layer opacity" sid="908529273000615" type="System">
+                            <param id="0" name="Layer">1</param>
+                            <param id="1" name="Opacity">50</param>
+                        </action>
+                        <action id="-18" name="Set layer opacity" sid="138184934484967" type="System">
+                            <param id="0" name="Layer">2</param>
+                            <param id="1" name="Opacity">50</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="981126145881560" type="System">
+                            <param id="0" name="Group name">&quot;CoinLevel7&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="598762779786482" type="System">
+                            <param id="0" name="Group name">&quot;System7&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="147701079719540" type="System">
+                            <param id="0" name="Group name">&quot;MetroEvent7&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="351841322324570" type="System">
+                            <param id="0" name="Group name">&quot;StartEvent7&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="566357294786019" type="System">
+                            <param id="0" name="Group name">&quot;L1pause7&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="774872233507012" type="System">
+                            <param id="0" name="Group name">&quot;L1 pause button actions7&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="158365720633152" type="System">
+                            <param id="0" name="Group name">&quot;Game over Actions7&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="131627508036356" type="System">
+                            <param id="0" name="Group name">&quot;Game win Actions7&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block any="1" sid="894786080631769">
+                    <conditions>
+                        <condition id="-9" name="Layer is visible" sid="727203280747546" type="System">
+                            <param id="0" name="Layer">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-18" name="Set layer opacity" sid="523119823364659" type="System">
+                            <param id="0" name="Layer">0</param>
+                            <param id="1" name="Opacity">50</param>
+                        </action>
+                        <action id="-18" name="Set layer opacity" sid="120365487845904" type="System">
+                            <param id="0" name="Layer">1</param>
+                            <param id="1" name="Opacity">50</param>
+                        </action>
+                        <action id="-18" name="Set layer opacity" sid="416492641222880" type="System">
+                            <param id="0" name="Layer">2</param>
+                            <param id="1" name="Opacity">50</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="778320238554249" type="System">
+                            <param id="0" name="Group name">&quot;CoinLevel7&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="210655686245022" type="System">
+                            <param id="0" name="Group name">&quot;System7&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="447997808273281" type="System">
+                            <param id="0" name="Group name">&quot;MetroEvent7&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="168145570491493" type="System">
+                            <param id="0" name="Group name">&quot;L1pause7&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="352787943433523" type="System">
+                            <param id="0" name="Group name">&quot;L1 pause button actions7&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="590518748491228" type="System">
+                            <param id="0" name="Group name">&quot;Game over Actions7&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="835571210097300" type="System">
+                            <param id="0" name="Group name">&quot;Game win Actions7&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="268847038467057" type="System">
+                            <param id="0" name="Group name">&quot;StartEvent7&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block any="1" sid="878698635893386">
+                    <conditions>
+                        <condition id="-9" name="Layer is visible" sid="340789638881380" type="System">
+                            <param id="0" name="Layer">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-18" name="Set layer opacity" sid="301681330524470" type="System">
+                            <param id="0" name="Layer">0</param>
+                            <param id="1" name="Opacity">50</param>
+                        </action>
+                        <action id="-18" name="Set layer opacity" sid="748320302378190" type="System">
+                            <param id="0" name="Layer">1</param>
+                            <param id="1" name="Opacity">50</param>
+                        </action>
+                        <action id="-18" name="Set layer opacity" sid="291424526578504" type="System">
+                            <param id="0" name="Layer">2</param>
+                            <param id="1" name="Opacity">50</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="287066275118853" type="System">
+                            <param id="0" name="Group name">&quot;CoinLevel7&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="420612264628951" type="System">
+                            <param id="0" name="Group name">&quot;System7&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="875698696745576" type="System">
+                            <param id="0" name="Group name">&quot;MetroEvent7&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="280197516090585" type="System">
+                            <param id="0" name="Group name">&quot;L1pause7&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="682653192627678" type="System">
+                            <param id="0" name="Group name">&quot;L1 pause button actions7&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="290387332464935" type="System">
+                            <param id="0" name="Group name">&quot;Game over Actions7&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="860964439171847" type="System">
+                            <param id="0" name="Group name">&quot;Game win Actions7&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="215334729256788" type="System">
+                            <param id="0" name="Group name">&quot;StartEvent7&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="953482614016630">
+                    <conditions>
+                        <condition id="-9" inverted="1" name="Layer is visible" sid="975592539256321" type="System">
+                            <param id="0" name="Layer">3</param>
+                        </condition>
+                        <condition id="-9" inverted="1" name="Layer is visible" sid="752876125541473" type="System">
+                            <param id="0" name="Layer">4</param>
+                        </condition>
+                        <condition id="-9" inverted="1" name="Layer is visible" sid="994856008323497" type="System">
+                            <param id="0" name="Layer">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-18" name="Set layer opacity" sid="366705392399615" type="System">
+                            <param id="0" name="Layer">0</param>
+                            <param id="1" name="Opacity">100</param>
+                        </action>
+                        <action id="-18" name="Set layer opacity" sid="261847459289144" type="System">
+                            <param id="0" name="Layer">1</param>
+                            <param id="1" name="Opacity">100</param>
+                        </action>
+                        <action id="-18" name="Set layer opacity" sid="962693575686729" type="System">
+                            <param id="0" name="Layer">2</param>
+                            <param id="1" name="Opacity">100</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="784308927710475" type="System">
+                            <param id="0" name="Group name">&quot;CoinLevel7&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="706812098619851" type="System">
+                            <param id="0" name="Group name">&quot;System7&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="430725314324536" type="System">
+                            <param id="0" name="Group name">&quot;MetroEvent7&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="876016332663307" type="System">
+                            <param id="0" name="Group name">&quot;L1pause7&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="769894887176341" type="System">
+                            <param id="0" name="Group name">&quot;L1 pause button actions7&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="556952883611412" type="System">
+                            <param id="0" name="Group name">&quot;Game over Actions7&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="864246496982782" type="System">
+                            <param id="0" name="Group name">&quot;Game win Actions7&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="619304626172577" type="System">
+                            <param id="0" name="Group name">&quot;StartEvent7&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="428061969838179" title="Game win7">
+            <sub-events>
+                <event-block sid="853505547635314">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="683346114761280" type="System">
+                            <param id="0" name="Variable">Levelcoin7</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">28</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="684918595949445" type="lcomp1star">
+                            <param id="0" name="Animation">&quot;Animation3&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="672437868704322">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="569156128798223" type="System">
+                            <param id="0" name="Variable">Levelcoin7</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">18</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="193358108505112" type="System">
+                            <param id="0" name="Variable">Levelcoin7</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">27</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="735689127790816" type="lcomp1star">
+                            <param id="0" name="Animation">&quot;Animation2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="383681252516837">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="712813805728851" type="System">
+                            <param id="0" name="Variable">Levelcoin7</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">17</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="836315989789792" type="lcomp1star">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="559886124288030">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="434189211111539" type="spaceAstronauts_">
+                            <param id="0" name="Object">partsfamily</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="905243351438808" type="System">
+                            <param id="0" name="Variable">Levelparts7</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="575653195642026" type="Audio">
+                            <param id="0" name="Audio file">boxcollect</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-30</param>
+                            <param id="1" name="Tag (optional)">&quot;win&quot;</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="458196198998106" type="partsfamily" />
+                    </actions>
+                </event-block>
+                <event-block sid="838264327765926">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="645465801676345" type="spaceAstronauts_">
+                            <param id="0" name="Object">Sprite6</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="153053018960289" type="System">
+                            <param id="0" name="Variable">Levelparts7</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="351222641640010" type="System">
+                            <param id="0" name="Layer">5</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="703301334471827" type="System">
+                            <param id="0" name="Variable">GlobalCoin</param>
+                            <param id="1" name="Value">Levelcoin7</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="258038272520662" type="System">
+                            <param id="0" name="Variable">GlobalBox</param>
+                            <param id="1" name="Value">Levelbox7</param>
+                        </action>
+                        <action id="0" name="Play" sid="604393957351916" type="Audio">
+                            <param id="0" name="Audio file">you_win</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-15</param>
+                            <param id="1" name="Tag (optional)">&quot;win&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="970970434875689" type="System">
+                            <param id="0" name="Variable">L7</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="4" name="Show interstitial" sid="664430850168757" type="AdmobAds" />
+                        <action id="3" name="Preload interstitial" sid="432210015644336" type="AdmobAds" />
+                        <action id="0" name="Set item" sid="725332821957318" type="LocalStorage">
+                            <param id="0" name="Key">&quot;Coins&quot;</param>
+                            <param id="1" name="Value">GlobalCoin</param>
+                        </action>
+                        <action id="0" name="Set item" sid="861130000390305" type="LocalStorage">
+                            <param id="0" name="Key">&quot;phazer&quot;</param>
+                            <param id="1" name="Value">phazer</param>
+                        </action>
+                        <action id="0" name="Set item" sid="437819898240244" type="LocalStorage">
+                            <param id="0" name="Key">&quot;Gbox&quot;</param>
+                            <param id="1" name="Value">GlobalBox</param>
+                        </action>
+                        <action id="0" name="Set item" sid="479595145463093" type="LocalStorage">
+                            <param id="0" name="Key">&quot;Dbox&quot;</param>
+                            <param id="1" name="Value">DiamondChest</param>
+                        </action>
+                        <action id="0" name="Set item" sid="533719863863580" type="LocalStorage">
+                            <param id="0" name="Key">&quot;speed&quot;</param>
+                            <param id="1" name="Value">MetroSpeed</param>
+                        </action>
+                        <action id="0" name="Set item" sid="983510091460358" type="LocalStorage">
+                            <param id="0" name="Key">&quot;l1&quot;</param>
+                            <param id="1" name="Value">L1</param>
+                        </action>
+                        <action id="0" name="Set item" sid="887169943306668" type="LocalStorage">
+                            <param id="0" name="Key">&quot;l2&quot;</param>
+                            <param id="1" name="Value">L2</param>
+                        </action>
+                        <action id="0" name="Set item" sid="703930981948589" type="LocalStorage">
+                            <param id="0" name="Key">&quot;l3&quot;</param>
+                            <param id="1" name="Value">L3</param>
+                        </action>
+                        <action id="0" name="Set item" sid="192325809472697" type="LocalStorage">
+                            <param id="0" name="Key">&quot;l4&quot;</param>
+                            <param id="1" name="Value">L4</param>
+                        </action>
+                        <action id="0" name="Set item" sid="313254832588976" type="LocalStorage">
+                            <param id="0" name="Key">&quot;l5&quot;</param>
+                            <param id="1" name="Value">L5</param>
+                        </action>
+                        <action id="0" name="Set item" sid="417542978833148" type="LocalStorage">
+                            <param id="0" name="Key">&quot;l6&quot;</param>
+                            <param id="1" name="Value">L6</param>
+                        </action>
+                        <action id="0" name="Set item" sid="410731052664540" type="LocalStorage">
+                            <param id="0" name="Key">&quot;l7&quot;</param>
+                            <param id="1" name="Value">L7</param>
+                        </action>
+                        <action id="0" name="Set item" sid="352851765947085" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac1&quot;</param>
+                            <param id="1" name="Value">ac1</param>
+                        </action>
+                        <action id="0" name="Set item" sid="876625897222062" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac2&quot;</param>
+                            <param id="1" name="Value">ac2</param>
+                        </action>
+                        <action id="0" name="Set item" sid="656294908505536" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac3&quot;</param>
+                            <param id="1" name="Value">ac3</param>
+                        </action>
+                        <action id="0" name="Set item" sid="425854646558918" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac4&quot;</param>
+                            <param id="1" name="Value">ac4</param>
+                        </action>
+                        <action id="0" name="Set item" sid="121743465497361" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac5&quot;</param>
+                            <param id="1" name="Value">ac5</param>
+                        </action>
+                        <action id="0" name="Set item" sid="569093302002430" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac6&quot;</param>
+                            <param id="1" name="Value">ac6</param>
+                        </action>
+                        <action id="0" name="Set item" sid="533645313873120" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac7&quot;</param>
+                            <param id="1" name="Value">ac7</param>
+                        </action>
+                        <action id="0" name="Set item" sid="650925756482797" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac8&quot;</param>
+                            <param id="1" name="Value">ac8</param>
+                        </action>
+                        <action id="0" name="Set item" sid="809050584218908" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac9&quot;</param>
+                            <param id="1" name="Value">ac9</param>
+                        </action>
+                        <action id="0" name="Set item" sid="882899209264971" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac10&quot;</param>
+                            <param id="1" name="Value">ac10</param>
+                        </action>
+                        <action id="0" name="Set item" sid="716196043311776" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac11&quot;</param>
+                            <param id="1" name="Value">ac11</param>
+                        </action>
+                        <action id="0" name="Set item" sid="302322746899084" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac12&quot;</param>
+                            <param id="1" name="Value">ac12</param>
+                        </action>
+                        <action id="0" name="Set item" sid="845141772341735" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac13&quot;</param>
+                            <param id="1" name="Value">ac13</param>
+                        </action>
+                        <action id="0" name="Set item" sid="778462625025555" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac14&quot;</param>
+                            <param id="1" name="Value">ac14</param>
+                        </action>
+                        <action id="0" name="Set item" sid="255124717881990" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac15&quot;</param>
+                            <param id="1" name="Value">ac15</param>
+                        </action>
+                        <action id="0" name="Set item" sid="336794937992256" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac16&quot;</param>
+                            <param id="1" name="Value">ac16</param>
+                        </action>
+                        <action id="0" name="Set item" sid="783017163684375" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac17&quot;</param>
+                            <param id="1" name="Value">ac17</param>
+                        </action>
+                        <action id="0" name="Set item" sid="193399602374053" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac18&quot;</param>
+                            <param id="1" name="Value">ac18</param>
+                        </action>
+                        <action id="0" name="Set item" sid="913363788479770" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac19&quot;</param>
+                            <param id="1" name="Value">ac19</param>
+                        </action>
+                        <action id="0" name="Set item" sid="142465184996863" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac20&quot;</param>
+                            <param id="1" name="Value">ac20</param>
+                        </action>
+                        <action id="0" name="Set item" sid="910175246108638" type="LocalStorage">
+                            <param id="0" name="Key">&quot;save&quot;</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="289162114766210" title="Game over7">
+            <sub-events>
+                <event-block sid="336101622709643">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="459150744150234" type="spaceAstronauts_">
+                            <param id="0" name="Object">enemyfamily</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="558158622931600" type="System">
+                            <param id="0" name="Variable">Levellife7</param>
+                            <param id="1" name="Value">10</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="249532820955173" type="enemyfamily" />
+                        <action id="0" name="Play" sid="508087332331089" type="Audio">
+                            <param id="0" name="Audio file">laser1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-30</param>
+                            <param id="1" name="Tag (optional)">&quot;win&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="827156976054459">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="456758162610338" type="System">
+                            <param id="0" name="Variable">Levellife7</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="723973629864182" type="System">
+                            <param id="0" name="Layer">4</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="930818102627052" type="Audio">
+                            <param id="0" name="Audio file">you_lose</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-15</param>
+                            <param id="1" name="Tag (optional)">&quot;lose&quot;</param>
+                        </action>
+                        <action id="4" name="Show interstitial" sid="665338810882628" type="AdmobAds" />
+                        <action id="3" name="Preload interstitial" sid="620457707127206" type="AdmobAds" />
+                        <action id="0" name="Set item" sid="947767648898653" type="LocalStorage">
+                            <param id="0" name="Key">&quot;Coins&quot;</param>
+                            <param id="1" name="Value">GlobalCoin</param>
+                        </action>
+                        <action id="0" name="Set item" sid="121784993626331" type="LocalStorage">
+                            <param id="0" name="Key">&quot;phazer&quot;</param>
+                            <param id="1" name="Value">phazer</param>
+                        </action>
+                        <action id="0" name="Set item" sid="701227044987251" type="LocalStorage">
+                            <param id="0" name="Key">&quot;Gbox&quot;</param>
+                            <param id="1" name="Value">GlobalBox</param>
+                        </action>
+                        <action id="0" name="Set item" sid="519664444818387" type="LocalStorage">
+                            <param id="0" name="Key">&quot;Dbox&quot;</param>
+                            <param id="1" name="Value">DiamondChest</param>
+                        </action>
+                        <action id="0" name="Set item" sid="737261977438328" type="LocalStorage">
+                            <param id="0" name="Key">&quot;speed&quot;</param>
+                            <param id="1" name="Value">MetroSpeed</param>
+                        </action>
+                        <action id="0" name="Set item" sid="793415462111362" type="LocalStorage">
+                            <param id="0" name="Key">&quot;l1&quot;</param>
+                            <param id="1" name="Value">L1</param>
+                        </action>
+                        <action id="0" name="Set item" sid="535892815745941" type="LocalStorage">
+                            <param id="0" name="Key">&quot;l2&quot;</param>
+                            <param id="1" name="Value">L2</param>
+                        </action>
+                        <action id="0" name="Set item" sid="367662379751971" type="LocalStorage">
+                            <param id="0" name="Key">&quot;l3&quot;</param>
+                            <param id="1" name="Value">L3</param>
+                        </action>
+                        <action id="0" name="Set item" sid="317419419672065" type="LocalStorage">
+                            <param id="0" name="Key">&quot;l4&quot;</param>
+                            <param id="1" name="Value">L4</param>
+                        </action>
+                        <action id="0" name="Set item" sid="970599933381352" type="LocalStorage">
+                            <param id="0" name="Key">&quot;l5&quot;</param>
+                            <param id="1" name="Value">L5</param>
+                        </action>
+                        <action id="0" name="Set item" sid="815756543581330" type="LocalStorage">
+                            <param id="0" name="Key">&quot;l6&quot;</param>
+                            <param id="1" name="Value">L6</param>
+                        </action>
+                        <action id="0" name="Set item" sid="719637941700206" type="LocalStorage">
+                            <param id="0" name="Key">&quot;l7&quot;</param>
+                            <param id="1" name="Value">L7</param>
+                        </action>
+                        <action id="0" name="Set item" sid="556662151457236" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac1&quot;</param>
+                            <param id="1" name="Value">ac1</param>
+                        </action>
+                        <action id="0" name="Set item" sid="737249512651422" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac2&quot;</param>
+                            <param id="1" name="Value">ac2</param>
+                        </action>
+                        <action id="0" name="Set item" sid="324837988031098" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac3&quot;</param>
+                            <param id="1" name="Value">ac3</param>
+                        </action>
+                        <action id="0" name="Set item" sid="939159462418544" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac4&quot;</param>
+                            <param id="1" name="Value">ac4</param>
+                        </action>
+                        <action id="0" name="Set item" sid="397958994816401" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac5&quot;</param>
+                            <param id="1" name="Value">ac5</param>
+                        </action>
+                        <action id="0" name="Set item" sid="291813620201534" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac6&quot;</param>
+                            <param id="1" name="Value">ac6</param>
+                        </action>
+                        <action id="0" name="Set item" sid="879530012741924" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac7&quot;</param>
+                            <param id="1" name="Value">ac7</param>
+                        </action>
+                        <action id="0" name="Set item" sid="904970198205998" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac8&quot;</param>
+                            <param id="1" name="Value">ac8</param>
+                        </action>
+                        <action id="0" name="Set item" sid="453626408359168" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac9&quot;</param>
+                            <param id="1" name="Value">ac9</param>
+                        </action>
+                        <action id="0" name="Set item" sid="543837316718102" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac10&quot;</param>
+                            <param id="1" name="Value">ac10</param>
+                        </action>
+                        <action id="0" name="Set item" sid="926977228496522" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac11&quot;</param>
+                            <param id="1" name="Value">ac11</param>
+                        </action>
+                        <action id="0" name="Set item" sid="303301944178680" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac12&quot;</param>
+                            <param id="1" name="Value">ac12</param>
+                        </action>
+                        <action id="0" name="Set item" sid="226543893022366" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac13&quot;</param>
+                            <param id="1" name="Value">ac13</param>
+                        </action>
+                        <action id="0" name="Set item" sid="844614416750589" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac14&quot;</param>
+                            <param id="1" name="Value">ac14</param>
+                        </action>
+                        <action id="0" name="Set item" sid="935245337717034" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac15&quot;</param>
+                            <param id="1" name="Value">ac15</param>
+                        </action>
+                        <action id="0" name="Set item" sid="859440561707534" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac16&quot;</param>
+                            <param id="1" name="Value">ac16</param>
+                        </action>
+                        <action id="0" name="Set item" sid="162348193528556" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac17&quot;</param>
+                            <param id="1" name="Value">ac17</param>
+                        </action>
+                        <action id="0" name="Set item" sid="613377808229087" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac18&quot;</param>
+                            <param id="1" name="Value">ac18</param>
+                        </action>
+                        <action id="0" name="Set item" sid="485657111832661" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac19&quot;</param>
+                            <param id="1" name="Value">ac19</param>
+                        </action>
+                        <action id="0" name="Set item" sid="192434337026049" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac20&quot;</param>
+                            <param id="1" name="Value">ac20</param>
+                        </action>
+                        <action id="0" name="Set item" sid="106580935345980" type="LocalStorage">
+                            <param id="0" name="Key">&quot;save&quot;</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="986831353649198">
+                    <conditions>
+                        <condition id="-19" name="On destroyed" sid="457898384845910" type="spaceAstronauts_" />
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="554423423109957" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="234917896833868" type="System">
+                            <param id="0" name="Layer">4</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="787010064581513" type="Audio">
+                            <param id="0" name="Audio file">you_lose</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-15</param>
+                            <param id="1" name="Tag (optional)">&quot;lose&quot;</param>
+                        </action>
+                        <action id="4" name="Show interstitial" sid="969642764713027" type="AdmobAds" />
+                        <action id="3" name="Preload interstitial" sid="663453691886319" type="AdmobAds" />
+                        <action id="0" name="Set item" sid="639445112863001" type="LocalStorage">
+                            <param id="0" name="Key">&quot;Coins&quot;</param>
+                            <param id="1" name="Value">GlobalCoin</param>
+                        </action>
+                        <action id="0" name="Set item" sid="986886298379331" type="LocalStorage">
+                            <param id="0" name="Key">&quot;phazer&quot;</param>
+                            <param id="1" name="Value">phazer</param>
+                        </action>
+                        <action id="0" name="Set item" sid="702963736446583" type="LocalStorage">
+                            <param id="0" name="Key">&quot;Gbox&quot;</param>
+                            <param id="1" name="Value">GlobalBox</param>
+                        </action>
+                        <action id="0" name="Set item" sid="804166840859411" type="LocalStorage">
+                            <param id="0" name="Key">&quot;Dbox&quot;</param>
+                            <param id="1" name="Value">DiamondChest</param>
+                        </action>
+                        <action id="0" name="Set item" sid="523482549410401" type="LocalStorage">
+                            <param id="0" name="Key">&quot;speed&quot;</param>
+                            <param id="1" name="Value">MetroSpeed</param>
+                        </action>
+                        <action id="0" name="Set item" sid="396917308914987" type="LocalStorage">
+                            <param id="0" name="Key">&quot;l1&quot;</param>
+                            <param id="1" name="Value">L1</param>
+                        </action>
+                        <action id="0" name="Set item" sid="829889360697125" type="LocalStorage">
+                            <param id="0" name="Key">&quot;l2&quot;</param>
+                            <param id="1" name="Value">L2</param>
+                        </action>
+                        <action id="0" name="Set item" sid="536650002149759" type="LocalStorage">
+                            <param id="0" name="Key">&quot;l3&quot;</param>
+                            <param id="1" name="Value">L3</param>
+                        </action>
+                        <action id="0" name="Set item" sid="213769491219210" type="LocalStorage">
+                            <param id="0" name="Key">&quot;l4&quot;</param>
+                            <param id="1" name="Value">L4</param>
+                        </action>
+                        <action id="0" name="Set item" sid="926754452682318" type="LocalStorage">
+                            <param id="0" name="Key">&quot;l5&quot;</param>
+                            <param id="1" name="Value">L5</param>
+                        </action>
+                        <action id="0" name="Set item" sid="865562502021055" type="LocalStorage">
+                            <param id="0" name="Key">&quot;l6&quot;</param>
+                            <param id="1" name="Value">L6</param>
+                        </action>
+                        <action id="0" name="Set item" sid="931065371213609" type="LocalStorage">
+                            <param id="0" name="Key">&quot;l7&quot;</param>
+                            <param id="1" name="Value">L7</param>
+                        </action>
+                        <action id="0" name="Set item" sid="576340930222993" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac1&quot;</param>
+                            <param id="1" name="Value">ac1</param>
+                        </action>
+                        <action id="0" name="Set item" sid="379761861121369" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac2&quot;</param>
+                            <param id="1" name="Value">ac2</param>
+                        </action>
+                        <action id="0" name="Set item" sid="843362240441750" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac3&quot;</param>
+                            <param id="1" name="Value">ac3</param>
+                        </action>
+                        <action id="0" name="Set item" sid="332853739666174" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac4&quot;</param>
+                            <param id="1" name="Value">ac4</param>
+                        </action>
+                        <action id="0" name="Set item" sid="920540276166408" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac5&quot;</param>
+                            <param id="1" name="Value">ac5</param>
+                        </action>
+                        <action id="0" name="Set item" sid="464623193243219" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac6&quot;</param>
+                            <param id="1" name="Value">ac6</param>
+                        </action>
+                        <action id="0" name="Set item" sid="877510317458287" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac7&quot;</param>
+                            <param id="1" name="Value">ac7</param>
+                        </action>
+                        <action id="0" name="Set item" sid="544999145897575" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac8&quot;</param>
+                            <param id="1" name="Value">ac8</param>
+                        </action>
+                        <action id="0" name="Set item" sid="114524554177384" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac9&quot;</param>
+                            <param id="1" name="Value">ac9</param>
+                        </action>
+                        <action id="0" name="Set item" sid="675916343054338" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac10&quot;</param>
+                            <param id="1" name="Value">ac10</param>
+                        </action>
+                        <action id="0" name="Set item" sid="878612709896379" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac11&quot;</param>
+                            <param id="1" name="Value">ac11</param>
+                        </action>
+                        <action id="0" name="Set item" sid="699345759245016" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac12&quot;</param>
+                            <param id="1" name="Value">ac12</param>
+                        </action>
+                        <action id="0" name="Set item" sid="718947400538618" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac13&quot;</param>
+                            <param id="1" name="Value">ac13</param>
+                        </action>
+                        <action id="0" name="Set item" sid="717731686145315" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac14&quot;</param>
+                            <param id="1" name="Value">ac14</param>
+                        </action>
+                        <action id="0" name="Set item" sid="545508628846182" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac15&quot;</param>
+                            <param id="1" name="Value">ac15</param>
+                        </action>
+                        <action id="0" name="Set item" sid="322942952360737" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac16&quot;</param>
+                            <param id="1" name="Value">ac16</param>
+                        </action>
+                        <action id="0" name="Set item" sid="542643284706296" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac17&quot;</param>
+                            <param id="1" name="Value">ac17</param>
+                        </action>
+                        <action id="0" name="Set item" sid="250299212099387" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac18&quot;</param>
+                            <param id="1" name="Value">ac18</param>
+                        </action>
+                        <action id="0" name="Set item" sid="726372899337586" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac19&quot;</param>
+                            <param id="1" name="Value">ac19</param>
+                        </action>
+                        <action id="0" name="Set item" sid="930838805698842" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ac20&quot;</param>
+                            <param id="1" name="Value">ac20</param>
+                        </action>
+                        <action id="0" name="Set item" sid="665750457726636" type="LocalStorage">
+                            <param id="0" name="Key">&quot;save&quot;</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="499197501842072" title="Game win Actions7">
+            <sub-events>
+                <event-block sid="369336298977512">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="553083365173522" type="Touch">
+                            <param id="0" name="Object">homenor</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="891407432117377" type="homenor">
+                            <param id="0" name="Animation">&quot;Animation2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="904188856565004" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="524426644133824" type="homenor">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="454884876918827" type="System">
+                            <param id="0" name="Variable">Levelbox7</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="496038025252843" type="System">
+                            <param id="0" name="Variable">Levellife7</param>
+                            <param id="1" name="Value">100</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="983973340603959" type="System">
+                            <param id="0" name="Variable">Levelcoin7</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="430523248611944" type="System">
+                            <param id="0" name="Variable">Levelparts7</param>
+                            <param id="1" name="Value">6</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="889227971145670" type="System">
+                            <param id="0" name="Layer">4</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="751293146271582" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="155058321423641" type="System">
+                            <param id="0" name="Layout">Menus</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="195919144652104" title="Game over Actions7">
+            <sub-events>
+                <event-block sid="964190611136229">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="524672714829525" type="Touch">
+                            <param id="0" name="Object">resnor2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="640135666443666" type="resnor2">
+                            <param id="0" name="Animation">&quot;Animation2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="597450229000361" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="782728528811302" type="resnor2">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="881075910573149" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="643456016191996" type="System">
+                            <param id="0" name="Variable">Levelbox7</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="804564002773812" type="System">
+                            <param id="0" name="Variable">Levellife7</param>
+                            <param id="1" name="Value">100</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="518472959583616" type="System">
+                            <param id="0" name="Variable">Levelcoin7</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="739241969137322" type="System">
+                            <param id="0" name="Variable">Levelparts7</param>
+                            <param id="1" name="Value">6</param>
+                        </action>
+                        <action id="-26" name="Restart layout" sid="672656824942235" type="System" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="381421883495697" title="Music7">
+            <sub-events>
+                <event-block sid="149196610640313">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="220745839399808" type="System" />
+                        <condition id="-14" name="Compare variable" sid="657855648052465" type="System">
+                            <param id="0" name="Variable">Music</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="150377585330390" type="Audio">
+                            <param id="0" name="Audio file">MattOglseby - 8</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">-20</param>
+                            <param id="1" name="Tag (optional)">&quot;l7&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="412709250980641">
+                    <conditions>
+                        <condition id="-3" name="On end of layout" sid="691951891653898" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="6" name="Stop" sid="454526235674797" type="Audio">
+                            <param id="0" name="Tag">&quot;l7&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="155880048784455" title="Sound7">
+            <sub-events>
+                <event-block sid="637406300513239">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="229009953438050" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="436437243218343" type="Audio">
+                            <param id="0" name="Audio file">7</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-15</param>
+                            <param id="1" name="Tag (optional)">&quot;7&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

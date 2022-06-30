@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Game Splash Events</name>
+    <events>
+        <event-group description="" sid="478875119888583" title="Music12">
+            <sub-events>
+                <event-block sid="634820643013156">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="277123587560694" type="System" />
+                        <condition id="-14" name="Compare variable" sid="734072538879712" type="System">
+                            <param id="0" name="Variable">Music</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="541545706900424" type="Audio">
+                            <param id="0" name="Audio file">MattOglseby - 1</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">-20</param>
+                            <param id="1" name="Tag (optional)">&quot;ac&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="393908974662919">
+                    <conditions>
+                        <condition id="-3" name="On end of layout" sid="271508003052881" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="6" name="Stop" sid="704745936379984" type="Audio">
+                            <param id="0" name="Tag">&quot;ac&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="911009028458314" title="Load">
+            <sub-events>
+                <event-block sid="285318288081271">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="543603268550622" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="590080269475489" type="Loading">
+                            <param id="0" name="Text">round(loadingprogress * 100) &amp; &quot;%&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="441049194888436">
+                    <conditions>
+                        <condition id="-25" name="On loader layout complete" sid="572722183422570" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="461643598930281" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="114322325362897" type="System">
+                            <param id="0" name="Layout">Company Splash</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="795771425141117" title="Banner11">
+            <sub-events>
+                <event-block sid="749097038449591">
+                    <conditions>
+                        <condition id="5" name="On banner ad received" sid="729665787895901" type="AdmobAds" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Show banner ad" sid="693846254654185" type="AdmobAds">
+                            <param id="0" name="Position">1</param>
+                            <param id="1" name="Size">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="100749846017756">
+                    <conditions>
+                        <condition id="0" name="Is showing banner ad" sid="421162814219701" type="AdmobAds" />
+                    </conditions>
+                    <actions>
+                        <action id="7" name="Preload banner ad" sid="123012059999168" type="AdmobAds" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="854431878537917">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="709084461248164" type="System" />
+            </conditions>
+            <actions>
+                <action id="7" name="Preload banner ad" sid="414484051520793" type="AdmobAds" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Global</name>
+    <events>
+        <variable constant="0" name="Music" sid="615001143672571" static="0" type="number">1</variable>
+        <variable constant="0" name="save" sid="437442166311922" static="0" type="number">0</variable>
+        <variable constant="0" name="DLoot" sid="403860685112887" static="0" type="number">0</variable>
+        <variable constant="0" name="GLoot" sid="733940570809198" static="0" type="number">0</variable>
+        <variable constant="0" name="DiamondChest" sid="534786908357597" static="0" type="number">0</variable>
+        <variable constant="0" name="MetroSpeed" sid="925238191275912" static="0" type="number">1</variable>
+        <variable constant="0" name="phazer" sid="649948760440986" static="0" type="number">1</variable>
+        <variable constant="0" name="L1" sid="376997075494146" static="0" type="number">0</variable>
+        <variable constant="0" name="L2" sid="428135976696247" static="0" type="number">0</variable>
+        <variable constant="0" name="L3" sid="673237527849125" static="0" type="number">0</variable>
+        <variable constant="0" name="L4" sid="669678122898624" static="0" type="number">0</variable>
+        <variable constant="0" name="L5" sid="205152930839472" static="0" type="number">0</variable>
+        <variable constant="0" name="L6" sid="363706882978626" static="0" type="number">0</variable>
+        <variable constant="0" name="L7" sid="934003405582887" static="0" type="number">0</variable>
+        <variable constant="0" name="GlobalBox" sid="532432192916145" static="0" type="number">0</variable>
+        <variable constant="0" name="GlobalCoin" sid="468440816901682" static="0" type="number">100</variable>
+    </events>
+</c2eventsheet>
